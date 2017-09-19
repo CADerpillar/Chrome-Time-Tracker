@@ -22,6 +22,11 @@ function main(){
 			minutes -= 60;
 			hours += 1;
 		}
+		if((seconds & 1)==0){
+			chrome.browserAction.setIcon({path:"icons/tick.png"});
+		}else {
+			chrome.browserAction.setIcon({path:"icons/tock.png"});
+	}
 		timeString = hours.toString() + ":" + minutes.toString() + ":" + seconds.toString();
 		timeAbv = hours.toString() + ":" + minutes.toString();
 		chrome.browserAction.setBadgeText({text: timeAbv});

@@ -2,13 +2,15 @@ body{
 	background-color:#6699ff;
 	font-size:70%;
 	text-align:center;
+	text-color:#ffffff;
 }
 #content{
-	background-color:#b2dbff;
+	background-color:#303030;
 	padding: 20px;
 	border-radius:20px;
 }
 #time{
 	font-size:60%;
 	text-align:center;
+	text-color:#ffffff;
 }

@@ -3,6 +3,7 @@ body{
 	font-size:70%;
 	text-align:center;
 	color: #ffffff;
+	text-shadow: 1px 1px 2px black;
 }
 #content{
 	background-color:##c9e9ff;

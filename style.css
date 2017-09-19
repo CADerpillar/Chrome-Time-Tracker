@@ -4,8 +4,9 @@ body{
 	text-align:center;
 }
 #content{
-	background-color:#72c6ff;
-	padding: 20px;
+	background-color:##c9e9ff;
+	padding: 15px;
+	border-width:20px;
 	border-radius:20px;
 }
 #time{

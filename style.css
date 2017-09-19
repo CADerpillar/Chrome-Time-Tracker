@@ -1,16 +1,14 @@
 body{
-	background-color:#6699ff;
+	background-color:#444444;
 	font-size:70%;
 	text-align:center;
-	text-color:#ffffff;
 }
 #content{
-	background-color:#303030;
+	background-color:#b5e1ff;
 	padding: 20px;
 	border-radius:20px;
 }
 #time{
 	font-size:60%;
 	text-align:center;
-	text-color:#ffffff;
 }

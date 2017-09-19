@@ -9,6 +9,9 @@ body{
 	border-width:30px;
 	border-radius:20px;
 }
+#content-box{
+	box-sizing:content-box;
+}
 #time{
 	font-size:60%;
 	text-align:center;

@@ -4,11 +4,21 @@ body	{
 	color: #ffffff;
 	text-shadow: 1px 1px 2px #9b9b9b;
 	white-space: nowrap;
+	line-height: .5;
 }
 h1	{
 	font-size:30px;
+	word-spacing: 2px;
+	letter-spacing: 1px;
 }
-
+h2	{
+	font-size:20px;
+	word-spacing: 2px;
+	letter-spacing: 2px;
+}
+p {
+	line-height: 0.25;
+}
 #content	{
 	background-color:#0e65f2;
 	padding: 10px 20px 10px 20px;
@@ -20,7 +30,5 @@ h1	{
 	box-sizing:content-box;
 }
 #time	{
-	text-align:center;
-	color: #ffffff;
 	font-size:70px;
 }

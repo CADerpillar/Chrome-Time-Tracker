@@ -1,21 +1,26 @@
-body{
-	background-color:#0099ff;
-	font-size:70%;
+body	{
+	background-color:#4285f4;
 	text-align:center;
 	color: #ffffff;
-	text-shadow: 1px 1px 2px black;
+	text-shadow: 1px 1px 2px #9b9b9b;
+	white-space: nowrap;
 }
-#content{
-	background-color:##c9e9ff;
-	padding: 15px;
-	border-width:30px;
-	border-radius:20px;
+h1	{
+	font-size:30px;
 }
-#content-box{
+
+#content	{
+	background-color:#0e65f2;
+	padding: 10px 20px 10px 20px;
+	border-style: none;
+	border-radius:10px;
+	
+}
+#content-box	{
 	box-sizing:content-box;
 }
-#time{
-	font-size:60%;
+#time	{
 	text-align:center;
 	color: #ffffff;
+	font-size:70px;
 }

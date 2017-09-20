@@ -2,7 +2,7 @@ body	{
 	background-color:#4285f4;
 	text-align:center;
 	color: #ffffff;
-	text-shadow: 1px 1px 2px #9b9b9b;
+	text-shadow: 1px 2px 5px #9b9b9b;
 	white-space: nowrap;
 	line-height: .5;
 }

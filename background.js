@@ -1,11 +1,11 @@
 
-chrome.browserAction.setBadgeBackgroundColor({ color: [77, 165, 223, 0] });
+chrome.browserAction.setBadgeBackgroundColor({ color: "#4285f4"});
+
 //Time variables
 var seconds = 0;
 var minutes = 0;
 var hours = 0;
 var timeString = "";
-
 
 
 function main(){
@@ -23,9 +23,9 @@ function main(){
 			chrome.browserAction.setIcon({path:"icons/tick.png"});
 		}else {
 			chrome.browserAction.setIcon({path:"icons/tock.png"});
-	}
-		timeString = hours.toString() + ":" + minutes.toString() + ":" + seconds.toString();
-		timeAbv = hours.toString() + ":" + minutes.toString();
+		}
+		timeString = hours.toString()+ "h" + ":" + minutes.toString()+ "m" + ":" + seconds.toString() + "s";
+		timeAbv = hours.toString()+ ":" + minutes.toString();
 		chrome.browserAction.setBadgeText({text: timeAbv});
 		
 		

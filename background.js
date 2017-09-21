@@ -54,9 +54,9 @@ function save(){
 	}
 	console.log(saveMinutes.toString());
 	timeTotal = saveHours.toString() + ":" + saveMinutes.toString() + ":" + saveSeconds.toString();
-	localStorage.setItem("UHOURS", saveHours);
-	localStorage.setItem("UMINUTES", saveMinutes);
-	localStorage.setItem("USECONDS", saveSeconds);
+	localStorage.setItem("UHOURS", hours);
+	localStorage.setItem("UMINUTES", minutes);
+	localStorage.setItem("USECONDS", seconds);
 }
 
 // Main function
